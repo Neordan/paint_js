@@ -1,0 +1,43 @@
+body {
+
+    box-sizing: border-box;
+    height: 100vh;
+    overflow: hidden;
+    background-color: rgb(168, 122, 212);
+}
+
+
+canvas {
+    border: 5px solid rgb(108, 4, 206);
+    background-color: white;
+    box-shadow: 2px 2px 5px rgb(124, 85, 161);
+  }
+
+i {
+    cursor: pointer;
+}
+
+h1, .tools {
+    width: 510px;
+    display: flex;
+}
+
+h1 {
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(108, 4, 206);
+    font-size: 38px;
+}
+
+.tools {
+    justify-content: space-around;
+    align-items: center;
+    height: 52px;
+    background-color: rgba(108, 4, 206, 0.233);
+    border-radius: 0 0 15px 15px;
+}
+
+.colors {
+    display: flex;
+    gap: 12px;
+}
